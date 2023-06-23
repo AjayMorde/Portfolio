@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+  
+   <script src="https://kit.fontawesome.com/b16e4e26d6.js" crossorigin="anonymous"></script>
+   
+   
+</head>
+<body>
+
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1><a href="index.html"><span>A</span> JAY</a></h1>
+                  </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#cont">Contact</a></li>
+                    <i class="fa-solid fa-xmark non" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars non" onclick="openmenu()"></i>
+                
+            </nav>
+            
+
+            <div class="header-text">
+                <img class="pimg" src="./Img/lap.png" alt="">
+
+                <p>
+                  <span style="color:  #f19595;"><i class="fa-solid fa-layer-group"></i></i></span>  
+                   <strong> Full-Stack Developer</strong>
+                   <span style="color:  #f19595;"><i class="fa-solid fa-layer-group"></i></span>  
+                </p>
+                <h1>
+                    Hi I AM Ajay Morde
+                </h1>
+          
+                <div class="profiles">
+                    <i class="fab fa-github curs" onclick="window.location.href = 'https://github.com/AjayMorde';"></i>
+                    <div class="linedin curs" style="color: #0077B5;" onclick="window.location.href = 'https://www.linkedin.com/in/ajay-morde-931b60207/';"><i class="fab fa-linkedin"></i></div>
+                    <div class="hack curs" style="color: rgb(31, 245, 31);" onclick="window.location.href = 'https://www.hackerrank.com/ajaymorde457?hr_r=1';"><i class="fab fa-hackerrank"></i></div>
+                    <img class="curs" src="./Img/leetCode.png" alt="" height="33px" width="37px" onclick="window.location.href = 'https://leetcode.com/ajaymorde457/';">
+                    <button class="round-button"> <a href="./Img/Ajay Morde resume FULL STACK4.pdf" target="_blank">View Resume</a></button>
+                </div>
+        
+            </div>
+        </div>
+
+    </div>
+    <!-- ----------------------------------------About--------------------------------------------------------------- -->
+    <div id="about"></div>
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img class="myimg1" src="./Img/myImg.png" alt="">
+
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <p>Passionate learner and accomplished B-Tech graduate (2022) from Punyashlok Ahilyadevi 
+                    Holkar University, Solapur Maharashtra,  Currently, I am enrolled in an intensive
+                     full-stack development program at Geekster, where I am actively expanding my skills
+                      in both front-end and back-end technologies.</p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links"onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="Education">
+                    
+                   <span class="faint" style="font-size: 13px;">
+                    <ul>
+                        I Completed 
+                        <br>
+                        <br>
+                        <li>
+                            10th grade from R.B.P High School & Jr. College, Sankh in 2015, achieving a score of 87%.[2015]
+                        </li>
+                        
+                        <li>
+                            12 th from Walchand College of Arts & Science Solapur. (62%)[2017] 
+                        </li>
+                        
+                        <li>
+                            B-Tech degree from N B Navale Sinhgad College of Engineering, Kegaon-Solapur in 2022, with a final percentage of 67%.
+                        </li><br>
+                        
+                        <li>
+                            <li>
+                               <a href="./Img/Ajay Morde resume FULL STACK4.pdf"> <button class="round-button">View Resume</button> </a>   <button class="round-button " id="hire" onclick="window.location.href = '#cont'">Hire me</button>
+                              </li>
+                        </li>
+                    </ul>
+                   </span>
+                   </div>
+
+                   <div class="tab-contents"  id="Skills">
+                   <span class="faint">
+                    <ul>
+                        <li>
+                            <span>Programming Languages</span><span class="skls">: java python</span>
+                        </li>
+                        <li>
+                           <span> Data Structure and Algorithm.</span>
+
+                          
+                        
+                            
+                        </li>
+                        <li><span>OOPs.  </span></li>
+                       
+                        <li>
+                            <span>Back-end Technology: </span> <span class="skls"> Node.js</span>
+                        </li>
+                        <li>
+                            <span> Front-End Technologies:</span> <span class="skls">Html css  javascript React js</span>
+                        </li>
+                        
+                        <li><span>SQL:</span> <span class="skls">DBMS    RDMS    QUERIES</span></li>
+                        <br>
+                      <li>
+                        <button class="round-button" onclick="window.location.href='#skills';">Know more..</button>    <button class="round-button " id="hire" onclick="window.location.href='#cont';">Hire me</button>
+                      </li>
+                            
+                    </ul>
+                   </span>
+                    
+                    
+
+                   </div>
+                   <div class="tab-contents"id="Experience">
+                  <ul>
+                  <li>
+                    <h4>
+                       <strong> INTERNSHIP</strong> <span><strong> || Geekster | Geekster Coding Bootcamp ||</span></strong>
+                    </h4><br>
+                  </li>
+                 <li>
+                    
+                       <style>
+                        .faint{
+                            color: #ebe1e1;
+                            
+                        
+                        }
+                       </style>
+                   <span class="faint"  style="color: rgb(243, 197, 197);" >
+                    I have been actively involved in a full-stack development role in Geekster, gaining valuable hands-on 
+                    experience and expanding my skill set.
+                        <br><br>
+                        During this immersive learning journey, I have had the opportunity to delve deep into 
+                        the realm of full-stack development, equipping myself with a robust arsenal of technical 
+                        proficiencies and industry best practices.
+                        
+                   </span>
+
+                    <br><br>
+
+                 </li>
+                 <li>
+                    <button class="round-button"  onclick="window.location.href='#experience';">Know more..</button>    <button class="round-button " id="hire"  onclick="window.location.href='#cont';">Hire me</button>
+                  </li>
+                  </ul>
+                 
+                   </div>
+            </div>
+          
+        </div>
+    </div>
+    <!-- -----------------------------------------------experience--------------------------------------------------------- -->
+    <div id="experience">
+        <div class="container">
+          <div class="experience-content">
+            <h4 class="text-center service-head2">Professional journey</h4>
+            <div class="experience-box">
+              <div class="experience-item expi1">
+                <div class="education-icon">
+                  <i class="fa fa-graduation-cap"></i>
+                </div>
+                <ul>
+                  <li>Enrolled in a comprehensive full-stack development Internship at Geekster.</li>
+                  <li>Gained skills in both front-end and back-end development.</li>
+                  <li>Successfully completed multiple web projects, including an Ecommerce website, a Github Exploration app, and various other engaging web applications.</li>
+                </ul>
+              </div>
+              <div class="vertical-line"></div>
+              <div class="experience-item expi1">
+                <div class="education-icon">
+                  <i class="fa fa-book"></i>
+                </div>
+                <ul>
+                  <li>Deepened understanding of programming concepts through coding practice.</li>
+                  <li>Tackled more than 100 coding questions on LeetCode.</li>
+                  <li>Strengthened proficiency in algorithmic problem-solving.</li>
+                  <li>Solved over 200 coding challenges, enhancing problem-solving abilities.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <style>
+          .education-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .education-icon i {
+    font-size: 36px;
+    color: #ff004f;
+  }
+
+  .vertical-line {
+    position: relative;
+    width: 2px;
+    height: 100%;
+    background-color: #e67e22;
+    margin: 0 auto;
+  }
+
+  .experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+  }
+
+
+  .experience-item ul {
+    margin-left: 20px;
+  }
+
+  .experience-item ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:rgb(231, 211, 211);
+  }
+
+  .experience-item ul li:last-child {
+    margin-bottom: 0;
+  }
+      </style>
+  
+    <!-- ----------------------------------------Skills--------------------------------------------------------------- -->
+
+    <div id="skills">
+        <div class="container">
+            <div class="service-head one">
+                <h4 class=" text-center">WHAT I KNOW</h4>
+                <div class="skills-list">
+                    <div>
+                        <i class="fa-solid fa-code fa-beat"></i>
+                        <h2>Back-End</h2>
+                        <p>  Proficient in Java programming for back-end web development.
+                            Experience with Java frameworks like Spring and Hibernate.</p>
+                        <a href="https://github.com/AjayMorde/ATM-Machine-Project">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple fa-beat"></i>
+                        <h2>Front-End</h2>
+                        <p>Skilled in HTML, CSS, and JavaScript for front-end web development.Build many web projects</p>
+                        <a href="https://github.com/AjayMorde/Ecommerce-Website/tree/main">Learn More</a>
+                    </div>
+                 
+                    <div>
+                        <i class="fa-brands fa-app-store fa-beat"></i>
+                        <h2> Frameworks</h2>
+                        <p>Experience in utilizing CSS frameworks like Bootstrap and Familiar with JavaScript frameworks React js</p>
+                        <a href="https://github.com/AjayMorde/To-Do-List-using-Bootstrap">Learn More</a>
+                    </div>
+                </div>
+                <div class="skills-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-database fa-beat"></i>
+                        <h2>Database</h2>
+                        <p>  Knowledge of Database Management Systems (DBMS) for efficient data storage and retrieval.
+                        Utilized DBMS tools like MySQL and PostgreSQL for database management.</p>
+                       
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-github fa-beat"></i>
+                        
+                        <h2>version control</h2>
+                        <p>
+                            Built numerous web projects using GitHub for version control and collaboration.
+                            Utilized Replit for code experimentation and sharing</p>
+                        
+                    </div>
+                 
+                    <div>
+                        <i class="fa-solid fa-list fa-beat"></i>
+                        <h2> Tools Used</h2>
+                        <p>Utilized development tools such as VS Code, Git ,and Eclipse for efficient coding and project management</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+
+    <!-- ------------------------------------------Projectts------------------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h4 class=" text-center service-head2">My Projects</h4>
+        <div class="work-list">
+            <div class="work">
+          
+                <img src="./Img/pr-1.jpg" alt="">
+                <div class="layer">
+                    <h3>
+                        eCommerce Website
+
+                    </h3>
+                    <p>
+                        Developed a fully functional eCommerce website using HTML, 
+                        CSS, and JavaScript. Implemented features such as product 
+                        listing, product details, shopping cart functionality.
+                        
+                    </p>
+                    <a href="https://github.com/AjayMorde/Ecommerce-Website"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://ajaymorde.github.io/Ecommerce-Website/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="./Img/pr2.jpg" alt="">
+                <div class="layer">
+                    <h3>
+                        Insort-news-clone
+
+                    </h3>
+                    <p>
+                        It aims to replicate the functionality of a news aggregator, 
+                        allowing users to view and sort news articles based on different categories."
+                        
+                    </p>
+                    <a href="https://github.com/AjayMorde/insort-clone-news"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://ajaymorde.github.io/insort-clone-news/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+
+            </div>
+              <div class="work">
+                <img src="./Img/pr3.jpeg" alt="">
+
+                <div class="layer">
+                    <h3>
+                        Appointment Booking App
+
+                    </h3>
+                    <p>
+                       
+                         Displayed the 
+                        appointment details dynamically on the page upon submission 
+                          Demonstrated proficiency in front-end web development
+                    </p>
+                    <a href="https://github.com/AjayMorde111/Booking-appointment-App"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://ajaymorde111.github.io/Booking-appointment-App/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+
+            </div>
+            <div class="work">
+                <img src="./Img/pr4.jpg" alt="">
+
+                <div class="layer">
+                    <h3>
+                        Bank Account Management System
+
+                    </h3>
+                    <p>
+                       
+                        Developed a terminal-based bank account management system in 
+                        Core Java
+                        Implemented features for users to 
+                        perform various banking operations and manage their accounts 
+                        effectively.
+                        Tech stack used: Core Java, OOP
+                    </p>
+                    <a href="https://github.com/AjayMorde/ATM-Machine-Project"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+
+            </div>
+            <div class="work">
+                <img src="./Img/pr5.jpg" alt="">
+
+                <div class="layer">
+                    <h3>
+                      Tic Tac Toe
+
+                    </h3>
+                    <p>
+                       
+                        Implemented the game logic and user interface, providing an interactive gaming experience.
+                        Utilized object-oriented programming principles to design and structure the game.
+                    </p>
+                    <a href="https://github.com/AjayMorde/-Tic-Tac-Toe-Game-in-Java-.Project"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+
+            </div>
+            <div class="work">
+                <img src="./Img/pr6.jpg" alt="">
+
+                <div class="layer">
+                    <h3>
+                        GitHub Finder app 
+
+                    </h3>
+                    <p>
+                       
+                        Utilized the GitHub API to fetch and display user information, including repositories, followers, and public activity.
+                        Implemented responsive design techniques to ensure a seamless user experience across different devices and screen sizes.
+                    </p>
+                    <a href="https://github.com/AjayMorde/Github-exploration-app"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://ajaymorde.github.io/Github-exploration-app/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+
+            </div>
+        </div>
+        <a href="https://github.com/AjayMorde" class="btn">See More Projects</a>
+    </div>
+</div>
+
+
+
+
+<!-----------------------------------------------contact----------------------------------------------------- -->
+
+<div class="contact" id="cont">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+
+                <h1 class="sub-title">
+                    Contact-Me
+                </h1>
+                <p>
+                    <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                    ajaymorde457@gmail.com
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    7517537095
+                </p>
+                <p>
+                    <i class="fa-brands fa-whatsapp" style="color: #25D366"></i>
+                    8265072217
+                </p>
+                <p>
+                    <i class="fas fa-home"></i>
+                    Solapur,Maharashtra
+                </p><br>
+                <div class="social-icons">
+                 <a href="https://www.facebook.com/ajay.morade.7/" style="color: #3b5998 ;"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/__ajay.07_/" style="color: #d62976 ;"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="https://twitter.com/MordeAjay22112" style="color:  #00acee ;"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="https://www.linkedin.com/in/ajay-morde-931b60207/" style="color:  #0072b1;"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="./Img/Ajay Morde resume FULL STACK4.pdf" download="" class="btn btn2 btn3">Download CV</a>
+
+
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                 <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                 <input type="email"  name="Email" placeholder="Your Email" required>
+                 <input type="text"  name="Phone" id="Phone" placeholder="Your Mobile Number" required>
+                 <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                 <button type="submit" class="btn btn2">Submit</button>
+
+
+              </form>
+              <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copywrite">
+        <p>© 2023 Profile of Ajay Morde</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+
+
+
+    
+    
+</body>
+</html>
